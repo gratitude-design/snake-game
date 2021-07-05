@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 150%;
+    background-image: url('./image/snake.jpg');
+    background-color:olive;
+    height: 800px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    font-size: 100%;
+    text-align: center;
+    padding: 5px 7px;
+}
+canvas{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 3px 5px 6px black;
+}
+div.relative {
+    position:absolute;
+    top:760px;
+    left:120px;
+}
